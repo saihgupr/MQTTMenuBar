@@ -2,6 +2,8 @@
 
 This is a macOS menu bar application designed to display MQTT messages in your menu bar. It's particularly useful for showing status updates from smart home devices or other MQTT-enabled systems.
 
+![MQTT Menu Bar App Demo](https://i.imgur.com/iTlUW4z.gif)
+
 ## Features
 
 - **MQTT Connection**: Connects to a specified MQTT broker.
