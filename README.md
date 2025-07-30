@@ -6,6 +6,8 @@ This is a macOS menu bar application designed to display MQTT messages in your m
 
 ## Features
 
+![MQTT App Settings](https://i.imgur.com/CdJwSnH.png)
+
 - **MQTT Connection**: Connects to a specified MQTT broker.
 - **Menu Bar Status**: Displays incoming MQTT messages directly in the macOS menu bar.
 - **Configurable Settings**: Easily set up broker IP/hostname, port, username, password, and topic via a dedicated setup window.
