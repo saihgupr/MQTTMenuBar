@@ -27,8 +27,8 @@ The first time you run it a window asks for your broker info and topic. Enter th
 
 ## Setup and Running
 
-> You can download the app from the [Releases page](https://github.com/saihgupr/MQTTMenuBar/releases)  
-> Or if you prefer you can build it yourself by following these steps
+You can download the app from the [Releases page](https://github.com/saihgupr/MQTTMenuBar/releases)  
+Or if you prefer you can build it yourself by following these steps.
 
 1.  **Clone the repository**:
     ```bash
