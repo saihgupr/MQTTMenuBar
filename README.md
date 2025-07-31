@@ -23,6 +23,9 @@ This is a macOS menu bar application designed to display MQTT messages in your m
 
 ## Setup and Running
 
+> You can download the app from the [Releases page](https://github.com/saihgupr/MQTTMenuBar/releases)  
+> Or if you prefer you can build it yourself by following these steps
+
 1.  **Clone the repository**:
     ```bash
     git clone https://github.com/saihgupr/MQTTMenuBar.git
