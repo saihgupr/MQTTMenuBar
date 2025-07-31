@@ -1,4 +1,4 @@
-# MQTT Menu Bar
+# MQTTMenuBar
 
 This is a macOS menu bar application designed to display MQTT messages in your menu bar. It's particularly useful for showing status updates from smart home devices or other MQTT-enabled systems.
 
