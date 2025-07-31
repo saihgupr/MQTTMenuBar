@@ -44,7 +44,7 @@ Or if you prefer you can build it yourself by following these steps.
     
 3.  **Install Dependencies**: Xcode should automatically resolve Swift Package Manager dependencies (CocoaMQTT, MqttCocoaAsyncSocket, Starscream). If not, go to `File > Swift Packages > Resolve Package Versions`.
 
-4.  **Build and Run**: Select your target (e.g., `MQTTMenuBar`) and click the 'Run' button (▶️) in Xcode. The app will appear in your menu bar.
+4.  **Build and Run**: Select your target (e.g., `MQTTMenuBar`) and click the 'Run' button in Xcode. The app will appear in your menu bar.
 
 5.  **Configure MQTT**: The first time you run the app, or if settings are incomplete, a setup window will appear. Enter your MQTT broker details and topic. The app will then connect and display messages.
 
