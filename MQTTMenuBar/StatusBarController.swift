@@ -62,7 +62,7 @@ class StatusBarController {
                     button.attributedTitle = NSAttributedString(string: "")
                 default:
                     // For any other message, display it as text, slightly lowered
-                    let textFont = NSFont.systemFont(ofSize: 13)
+                    let textFont = NSFont.boldSystemFont(ofSize: 13)
                     attributes = [.font: textFont, .baselineOffset: -1.0, .foregroundColor: NSColor.labelColor]
                     button.attributedTitle = NSAttributedString(string: message, attributes: attributes)
                 }
