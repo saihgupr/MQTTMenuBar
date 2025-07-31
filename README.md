@@ -1,4 +1,4 @@
-# MQTTMenuBar <img src="https://i.imgur.com/9n8F8wE.png" alt="Logo" width="25" height="25">
+# MQTTMenuBar
 
 This is a lightweight macOS menu bar application designed to display MQTT messages in your menu bar. Providing real-time status updates from your smart home devices or any MQTT-enabled system.
 
