@@ -12,13 +12,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1F08F0422E2D3B5300F494F1 /* MqttMenuBarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MqttMenuBarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F08F0422E2D3B5300F494F1 /* MQTTMenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MQTTMenuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		1F08F0442E2D3B5300F494F1 /* MqttMenuBarApp */ = {
+		1F08F0442E2D3B5300F494F1 /* MQTTMenuBar */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MqttMenuBarApp;
+			path = MQTTMenuBar;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -39,7 +39,7 @@
 		1F08F0392E2D3B5300F494F1 = {
 			isa = PBXGroup;
 			children = (
-				1F08F0442E2D3B5300F494F1 /* MqttMenuBarApp */,
+				1F08F0442E2D3B5300F494F1 /* MQTTMenuBar */,
 				1F08F0432E2D3B5300F494F1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,7 +47,7 @@
 		1F08F0432E2D3B5300F494F1 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1F08F0422E2D3B5300F494F1 /* MqttMenuBarApp.app */,
+				1F08F0422E2D3B5300F494F1 /* MQTTMenuBar.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,9 +55,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1F08F0412E2D3B5300F494F1 /* MqttMenuBarApp */ = {
+		1F08F0412E2D3B5300F494F1 /* MQTTMenuBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1F08F04E2E2D3B5400F494F1 /* Build configuration list for PBXNativeTarget "MqttMenuBarApp" */;
+			buildConfigurationList = 1F08F04E2E2D3B5400F494F1 /* Build configuration list for PBXNativeTarget "MQTTMenuBar" */;
 			buildPhases = (
 				1F08F03E2E2D3B5300F494F1 /* Sources */,
 				1F08F03F2E2D3B5300F494F1 /* Frameworks */,
@@ -68,15 +68,15 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				1F08F0442E2D3B5300F494F1 /* MqttMenuBarApp */,
+				1F08F0442E2D3B5300F494F1 /* MQTTMenuBar */,
 			);
-			name = MqttMenuBarApp;
+			name = MQTTMenuBar;
 			packageProductDependencies = (
 				1F08F0582E2D3BC500F494F1 /* CocoaMQTT */,
 				1F08F05A2E2D3BC500F494F1 /* CocoaMQTTWebSocket */,
 			);
-			productName = MqttMenuBarApp;
-			productReference = 1F08F0422E2D3B5300F494F1 /* MqttMenuBarApp.app */;
+			productName = MQTTMenuBar;
+			productReference = 1F08F0422E2D3B5300F494F1 /* MQTTMenuBar.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -94,7 +94,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1F08F03D2E2D3B5300F494F1 /* Build configuration list for PBXProject "MqttMenuBarApp" */;
+			buildConfigurationList = 1F08F03D2E2D3B5300F494F1 /* Build configuration list for PBXProject "MQTTMenuBar" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -111,7 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1F08F0412E2D3B5300F494F1 /* MqttMenuBarApp */,
+				1F08F0412E2D3B5300F494F1 /* MQTTMenuBar */,
 			);
 		};
 /* End PBXProject section */
@@ -263,7 +263,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = MqttMenuBarApp/MqttMenuBarApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MQTTMenuBar/MQTTMenuBar.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -277,7 +277,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pizzaman.MqttMenuBarApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pizzaman.MQTTMenuBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -291,7 +291,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
-				CODE_SIGN_ENTITLEMENTS = MqttMenuBarApp/MqttMenuBarApp.entitlements;
+				CODE_SIGN_ENTITLEMENTS = MQTTMenuBar/MQTTMenuBar.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -305,7 +305,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MARKETING_VERSION = 1.1;
-				PRODUCT_BUNDLE_IDENTIFIER = com.pizzaman.MqttMenuBarApp;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pizzaman.MQTTMenuBar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				REGISTER_APP_GROUPS = YES;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -316,7 +316,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1F08F03D2E2D3B5300F494F1 /* Build configuration list for PBXProject "MqttMenuBarApp" */ = {
+		1F08F03D2E2D3B5300F494F1 /* Build configuration list for PBXProject "MQTTMenuBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F08F04C2E2D3B5400F494F1 /* Debug */,
@@ -325,7 +325,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1F08F04E2E2D3B5400F494F1 /* Build configuration list for PBXNativeTarget "MqttMenuBarApp" */ = {
+		1F08F04E2E2D3B5400F494F1 /* Build configuration list for PBXNativeTarget "MQTTMenuBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1F08F04F2E2D3B5400F494F1 /* Debug */,
