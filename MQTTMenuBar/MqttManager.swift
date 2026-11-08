@@ -29,6 +29,8 @@ class MqttManager {
                port > 0
     }
 
+    let randomNumber = Int.random(in: 10000...99999)
+
     init(delegate: MqttManagerDelegate) {
         self.delegate = delegate
 
@@ -55,7 +57,7 @@ class MqttManager {
         print("  Password: \(password != nil ? "Set" : "N/A")")
 
         self.mqttTopic = topic
-        self.mqttClient = CocoaMQTT(clientID: "MqttMenuBarApp", host: broker, port: UInt16(port))
+        self.mqttClient = CocoaMQTT(clientID: "MqttMenuBarApp-\(randomNumber)", host: broker, port: UInt16(port))
         self.mqttClient.username = username
         self.mqttClient.password = password
         self.mqttClient.cleanSession = true // Ensure a clean session to avoid retained messages
